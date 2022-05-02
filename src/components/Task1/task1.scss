@@ -1,0 +1,31 @@
+.task1-wrapper {
+    border: 1px solid #000;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.btn {
+    border: 1px solid #000;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+}
+
+.counter {
+    text-transform: uppercase;
+}
+
+.input {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
